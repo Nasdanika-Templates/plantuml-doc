@@ -1,6 +1,6 @@
-# Xcore Documentation
+# PlantUML Class Diagram Documentation
 
-This is a template repository for generating documentation from [Xcore](https://wiki.eclipse.org/Xcore) metamodels.
+This is a template repository for generating documentation from [PlantUML Class Diagram](https://plantuml.com/class-diagram) definitions.
 Documentation can be generated manually using [Nasdanika CLI](https://docs.nasdanika.org/nsd-cli/index.html) and then published to GitHub pages if desired.
 It can also be generated using GitHub actions calling Nasdanika CLI. 
 
@@ -15,10 +15,10 @@ To generate and commit doc stubs you will have to either clone the repository to
 
 ## Manual generation
 
-Once you install Nasdanika CLI the first step isto generate the web site ([HTML Application](https://html-app.models.nasdanika.org/index.html)) model with [xcore/doc/save](https://docs.nasdanika.org/nsd-cli/nsd/xcore/doc/save/index.html) command pipeline:
+Once you install Nasdanika CLI the first step isto generate the web site ([HTML Application](https://html-app.models.nasdanika.org/index.html)) model with [plantuml/class/doc/save](https://docs.nasdanika.org/nsd-cli/nsd/plantuml/class/doc/save/index.html) command pipeline:
 
 ```
-nsd xcore My.xcore doc --diagram=my.drawio --doc-stubs --doc-dir=doc save my.xmi
+nsd plantuml my.puml class doc --diagram=my.drawio --doc-stubs --doc-dir=doc save my.xmi
 ```
 
 Remove `--diagram=my.drawio` if you've already generated a diagram file before and manually adjusted it. 
