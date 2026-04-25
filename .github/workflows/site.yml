@@ -41,7 +41,7 @@ jobs:
           chmod u+x nsd          
           pwd
           ls ..
-          ./nsd plantuml ../my.puml class doc --diagram=my.drawio --doc-stubs --doc-dir=../doc save ../my.xmi
+          ./nsd plantuml ../my.puml class --prefix=my --uri=https://nasdanika.org/my doc --diagram=my.drawio --doc-stubs --doc-dir=../doc save ../my.xmi
       - name: Generate Ecore site
         working-directory: nsd-cli
         run: |

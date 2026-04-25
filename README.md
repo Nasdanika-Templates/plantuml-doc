@@ -1,6 +1,9 @@
 # PlantUML Class Diagram Documentation
 
 This is a template repository for generating documentation from [PlantUML Class Diagram](https://plantuml.com/class-diagram) definitions.
+This allows to add fine-grained details to diagram elements, manually layout diagrams and make them more compact by showing only classes and relationships on the diagram.
+It also opens a path to code generation from PlantUML diagrams.
+
 Documentation can be generated manually using [Nasdanika CLI](https://docs.nasdanika.org/nsd-cli/index.html) and then published to GitHub pages if desired.
 It can also be generated using GitHub actions calling Nasdanika CLI. 
 
@@ -18,7 +21,7 @@ To generate and commit doc stubs you will have to either clone the repository to
 Once you install Nasdanika CLI the first step isto generate the web site ([HTML Application](https://html-app.models.nasdanika.org/index.html)) model with [plantuml/class/doc/save](https://docs.nasdanika.org/nsd-cli/nsd/plantuml/class/doc/save/index.html) command pipeline:
 
 ```
-nsd plantuml my.puml class doc --diagram=my.drawio --doc-stubs --doc-dir=doc save my.xmi
+nsd plantuml my.puml class --prefix=my --uri=https://nasdanika.org/my doc --diagram=my.drawio --doc-stubs --doc-dir=doc save my.xmi
 ```
 
 Remove `--diagram=my.drawio` if you've already generated a diagram file before and manually adjusted it. 
