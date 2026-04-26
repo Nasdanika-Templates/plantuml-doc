@@ -42,9 +42,9 @@ You can also mount it to a larger site.
 
 GitHub actions generate a documentation site, a diagram, and a doc stubs zip:
 
-* Documentation: https://nasdanika-templates.github.io/xcore-doc/index.html
-* Generated diagram file: https://nasdanika-templates.github.io/xcore-doc/my.drawio
-* Doc stubs zip: https://nasdanika-templates.github.io/xcore-doc/doc-stubs.zip - unzip and upload using GitHub Web interface if you are not using a local repository clone.
+* Documentation: https://nasdanika-templates.github.io/plantuml-doc/index.html
+* Generated diagram file: https://nasdanika-templates.github.io/plantuml-doc/my.drawio
+* Doc stubs zip: https://nasdanika-templates.github.io/plantuml-doc/doc-stubs.zip - unzip and upload using GitHub Web interface if you are not using a local repository clone.
 
 ## Upgrade to code generation
 
